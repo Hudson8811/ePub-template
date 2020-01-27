@@ -156,7 +156,7 @@ ul.dot {
 	li{
 		padding-left: 15px;
 		position: relative;
-		margin-bottom: 2px;
+		margin-bottom: 5px;
 		&:before{
 			content: '';
 			position: absolute;
@@ -170,12 +170,44 @@ ul.dot {
 			background-color: $color2;
 		}
 	}
+	& ul.arrow{
+		padding-left: 20px;
+		margin-top: 5px;
+		border-left: 1px solid #e6e6e6;
+		margin-bottom: 20px;
+	}
+}
+ul.arrow {
+	list-style: none;
+	li{
+		padding-left: 15px;
+		position: relative;
+		margin-bottom: 5px;
+		&:before{
+			content: '';
+			width: 0;
+			height: 0;
+			display: block;
+			position: absolute;
+			z-index: 10;
+			border: 0;
+			border-top: 4px solid transparent;
+			border-bottom: 4px solid transparent;
+			top: 7px;
+			border-left: 4px solid $color2;
+			left: 0;
+			background-color: transparent;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+		}
+	}
 }
 ol{
 	li{
 		padding-left: 15px;
 		position: relative;
-		margin-bottom: 2px;
+		margin-bottom: 5px;
 	}
 }
 
