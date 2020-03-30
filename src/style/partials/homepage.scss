@@ -22,14 +22,8 @@
         height: 2px;
         margin-top: -1px;
         content: '';
-        background-color: $color1;
     }
 
-    &--red-bg-line {
-        &:before {
-            background-color: #f77c39;
-        }
-    }
 
     &__left {
         position: relative;
@@ -116,7 +110,6 @@
 
     &__type {
         margin-bottom: 14px;
-        color: $color1;
         font-size: 20px;
         line-height: 23px;
     }
@@ -154,7 +147,6 @@
                 -webkit-border-radius: 3px;
                 -moz-border-radius: 3px;
                 border-radius: 3px;
-                background-color: $color2;
             }
         }
     }
@@ -167,7 +159,6 @@
 
     a {
         text-decoration: underline;
-        color: #3c5adc;
 
         &:hover {
             text-decoration: none;
@@ -190,7 +181,6 @@
         -webkit-border-radius: 25px;
         -moz-border-radius: 25px;
         border-radius: 25px;
-        background-color: $color2;
         font-weight: 500;
         font-size: 18px;
         line-height: 50px;
@@ -305,13 +295,11 @@
             }
 
             &.slick-active {
-                background-color: #447dda;
                 border: 0;
                 pointer-events: none;
             }
 
             &:hover {
-                background-color: #447dda;
                 border: 0;
             }
 

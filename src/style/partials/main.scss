@@ -9,7 +9,6 @@ $color3: #3661c3;
 }
 
 a{
-	color: $color1;
 	&:hover{
 		text-decoration: none;
 	}
@@ -138,8 +137,6 @@ body{
 	margin-bottom: 15px;
 }
 .all-page-button{
-	background-color: #facf21;
-	color: #33333d;
 	text-decoration: none;
 	display: inline-block;
 	vertical-align: top;
@@ -167,7 +164,6 @@ ul.dot {
 			-webkit-border-radius: 3px;
 			-moz-border-radius: 3px;
 			border-radius: 3px;
-			background-color: $color2;
 		}
 	}
 	& ul.arrow{
@@ -194,7 +190,6 @@ ul.arrow {
 			border-top: 4px solid transparent;
 			border-bottom: 4px solid transparent;
 			top: 7px;
-			border-left: 4px solid $color2;
 			left: 0;
 			background-color: transparent;
 			-webkit-border-radius: 0;
@@ -225,8 +220,6 @@ ol{
 		font-size: 16px;
 		line-height: 35px;
 		text-align: center;
-		color: #33333d;
-		background: $color2;
 		-webkit-border-radius: 16px;
 		-moz-border-radius: 16px;
 		border-radius: 16px;
@@ -262,13 +255,11 @@ ol{
 
 .menu_row{
 	margin-bottom: 25px;
-	background: $color1;
 	padding-left: 15px;
 	padding-right: 15px;
 	-webkit-border-radius: 24px;
 	-moz-border-radius: 24px;
 	border-radius: 24px;
-	box-shadow: $shadow1;
 	a{
 		text-decoration: none;
 	}
@@ -388,7 +379,6 @@ ol{
 		font-size: 16px;
 		color: #33333d;
 		text-transform: uppercase;
-		border-bottom: 1px solid $color1;
 		padding-top: 15px;
 		padding-bottom: 11px;
 		margin-bottom: 12px;
@@ -398,12 +388,8 @@ ol{
 		margin-bottom: 14px;
 		list-style: none;
 		&.active a{
-			color: $color1;
 			text-decoration: underline;
 			font-style: italic;
-			svg *{
-				fill: $color1;
-			}
 		}
 		& > a{
 			color: #5d5d68;
@@ -436,7 +422,6 @@ ol{
 		font-size: 16px;
 		color: #33333d;
 		text-transform: uppercase;
-		border-bottom: 1px solid $color1;
 		padding-top: 20px;
 		padding-bottom: 11px;
 		margin-bottom: 12px;
@@ -446,12 +431,10 @@ ol{
 		margin-bottom: 14px;
 		list-style: none;
 		&.active a{
-			color: $color1;
 		}
 		& > a{
 			color: #5d5d68;
 			&:hover{
-				color: $color1;
 			}
 		}
 	}
@@ -481,7 +464,6 @@ ol{
 					vertical-align: middle;
 					margin-top: -2px;
 					path{
-						fill: $color1;
 					}
 				}
 			}
@@ -489,7 +471,6 @@ ol{
 				display: block;
 				color: inherit;
 				&:hover{
-					color: $color1;
 				}
 			}
 		}
@@ -513,7 +494,6 @@ ol{
 			a{
 				color: inherit;
 				&:hover{
-					color: $color1;
 				}
 			}
 		}
@@ -524,7 +504,6 @@ ol{
 			a{
 				color: inherit;
 				&:hover{
-					color: $color1;
 				}
 			}
 			svg{
@@ -533,7 +512,6 @@ ol{
 				vertical-align: middle;
 				margin-top: -2px;
 				path{
-					fill:$color1;
 				}
 			}
 			.border{
@@ -553,7 +531,6 @@ ol{
 		}
 	}
 	#our_out{
-		background-color: $color1;
 		color: #fff;
 		#our{
 			padding-top: 10px;
@@ -603,7 +580,6 @@ ol{
 			display: block;
 			border-radius: 15px;
 			border: 1px solid #cccccc;
-			background-color: $color1;
 			box-sizing: border-box;
 			overflow: hidden;
 			img{
@@ -924,8 +900,6 @@ ol{
 		line-height: 35px;
 	}
 	input[type="submit"]{
-		background-color: #facf21;
-		color: #33333d;
 		text-decoration: none;
 		vertical-align: top;
 		height: 50px;
